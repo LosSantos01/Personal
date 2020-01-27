@@ -1,0 +1,370 @@
+/*cares about the most external part of the site*/
+
+body {
+    /* background: url(../img/skate02.jpg) no-repeat center; */
+    max-width: 100%;
+}
+
+
+/**/
+
+
+/*cares about all the elements inside the header in general configuration*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/**/
+
+
+/*cares about the the site whole's text in general*/
+
+a {
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+}
+
+
+/**/
+
+
+/*cares about the dropdown menu that is hidden*/
+
+.dropdown {
+    display: none;
+    margin: 0 auto;
+    /* ---------------------------------------------------------------- */
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+
+/**/
+
+
+/*cares about the width of images in general*/
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/**/
+
+
+/*cares about the logo*/
+
+#logo-topo {
+    max-width: 70%;
+    padding: 15px;
+}
+
+
+/**/
+
+
+/*cares about the menu position*/
+
+#navigation-menu {
+    display: flex;
+    padding-right: 40px;
+    /* ----------------------------- */
+}
+
+
+/**/
+
+
+/*cares about the menu's words and its position inside the text block*/
+
+#navigation-menu a {
+    justify-content: space-around;
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "roboto", sans-serif;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+
+/**/
+
+
+/*cares about the blocks position in general*/
+
+.first-block,
+.second-block,
+.third-block {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+
+/*.third-block*/
+
+
+/**/
+
+
+/*cares about the first block background*/
+
+.first-block {
+    background-color: #ffffff;
+}
+
+
+/**/
+
+
+/*cares about the second block background*/
+
+.second-block {
+    background-color: #000000;
+}
+
+
+/**/
+
+
+/*cares about the third block background*/
+
+.third-block {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+
+/**/
+
+
+/*cars about the text in the second block*/
+
+.second-block a {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+/**/
+
+
+/*cares about the text of the first block*/
+
+.first-block a {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
+
+
+/**/
+
+
+/*cares about the division of the two blocks*/
+
+#first-block-right,
+#first-block-left,
+#second-block-left,
+#second-block-right {
+    width: 50%;
+}
+
+
+/**/
+
+
+/*cares about the first block button*/
+
+.first-block button {
+    background-color: transparent;
+    /**/
+    text-align: center;
+    border: 3px solid #000000;
+    color: #000000;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "roboto", sans-serif;
+    margin: 30px;
+    margin-left: 60px;
+    /**/
+    font-size: 120%;
+}
+
+
+/**/
+
+
+/*cares about the second block button*/
+
+.second-block button {
+    background-color: transparent;
+    /**/
+    text-align: center;
+    border: 3px solid white;
+    color: white;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "roboto", sans-serif;
+    margin: 30px;
+    margin-left: 60px;
+    /**/
+    font-size: 120%;
+}
+
+
+/**/
+
+
+/*cares about third block position as a container*/
+
+.image-banner {
+    position: relative;
+}
+
+
+/**/
+
+
+/* .third-block {
+    background: url(../img/clothing03.jpg) no-repeat center;
+    
+}
+
+#txt03 {
+    width: 50%;
+    color: #ffffff;
+    font-size: 150px;
+    font-family: "Oswald", sans-serif;
+    padding: 50px;
+}
+
+#but03 button {
+    background-color: transparent;
+    text-align: center;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    padding: 20px 30px;
+} */
+
+
+/*cares about third block image's text position and formatting*/
+
+.image-banner a {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 200px;
+    width: 50%;
+    font-family: "Oswald", sans-serif;
+}
+
+
+/*cares about third block button's position and formatting*/
+
+.button-bottom {
+    background-color: transparent;
+    text-align: center;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    padding: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: "roboto", sans-serif;
+    position: absolute;
+    bottom: 166px;
+    left: 300px;
+    font-size: 120%;
+}
+
+
+/**/
+
+.top-block {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.top-image-banner a {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 200px;
+    width: 50%;
+    font-family: "Oswald", sans-serif;
+}
+
+
+/*don't touch here for now*/
+
+
+/* .navigation .navigation .navigation-menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50%;
+    top: 0;
+}
+
+.navigation .navigation-menu li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+.navigation .navigation-menu>li:not(:first-child) {
+    margin-left: 20px;
+    position: relative;
+}
+
+.navigation .navigation-menu>li .has-dropdown .dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, 35%);
+    display: none;
+}
+
+.navigation .navigation-menu>li .has-dropdown .dropdown ul li:not(:first-child) {
+    margin-top: 8px;
+}
+
+.navigation .navigation-menu>li .has-dropdown:hover .dropdown {
+    display: block;
+} */
