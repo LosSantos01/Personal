@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title>homework</title>
+    </head>
+
+    <style>
+        body {justify-content: center;}    
+    </style>
+<body>
+    <h1>Final project part 1</h1>
+    <h3>E-commerse cart simulator</h1>
+    <section>
+        <input type="text"></input>
+        <input type="button"></input>
+    </section>
+
+
+
+
+<script>
+function Product (id, name, price){
+    this.id = id,
+    this.name = name,
+    this.price = price
+}
+
+var smartPhones = [
+    new Product (024, "IphoneX", 3.000), 
+    new Product (025, "IphoneXI", 4.500), 
+    new Product (026, "Iphone8", 1.900)
+] 
+
+var Laptops = [
+    new Product (142, "MacbookPro", 30.050),
+    new Product (225, "Macbook", 10.109),
+    new Product (194, "MacbookAir", 9.790)
+]
+
+function Cart (product, quantity) {
+    this.product = product,
+    this.quantity = quantity,
+    this.totalPrice = this.product.price*this.quantity
+}
+
+var finalcart = [
+    cartItem = [],
+
+    this.addProd = function (id, name, price, quantity){
+        this.cartItem.push(new product(id, name, price))
+    },
+
+    this.remove = function (id){
+        for(var i=0; cartItem[i].id == id; i++ ){
+            
+        }
+    }
+]
+
+
+
+// Para adcionar o item usar push
+//Para removar usar filter ou slice(com laço de repetição for)
+//Para Calcular 
+
+</script>
+
+</body>
+</html>
+
+
